@@ -1,0 +1,68 @@
+/* --- Reset / Base --- */
+@font-face {
+  font-family: 'Inter';
+  src: url('/fonts/InterVariable.woff2') format('woff2');
+  font-weight: 100 900; /* weight range */
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('/fonts/InterVariable-italic.woff2') format('woff2');
+  font-weight: 100 900; /* weight range */
+  font-style: italic;
+  font-display: swap;
+  font-feature-settings: 'salt' on;
+}
+
+/* Box sizing: border-box for predictable sizing */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin/padding */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Set default font and background */
+html, body {
+  height: 100%;
+  font-family: "Inter", system-ui, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  background-color: #0079A5; /* from Figma */
+  color: #000; /* from Figma */
+}
+
+/* Remove list bullets and link underline by default */
+ul, ol {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Make images and media easier to work with */
+img, picture, video, canvas, svg {
+  display: inline-block;
+  vertical-align: middle;
+  max-width: 100%;
+}
+
+/* Remove default button styles */
+button {
+  background: none;
+  border: none;
+  font: inherit;
+  color: inherit;
+  cursor: pointer;
+}
+
+/* Inherit font for form elements */
+input, textarea, select {
+  font: inherit;
+}
