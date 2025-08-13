@@ -74,7 +74,7 @@ body {
   height: 876px;
   background:
     linear-gradient(172.1deg, rgba(0, 0, 0, 0) 6.1%, rgba(4, 4, 4, 0.3) 93.9%),
-    url("/img/background.jpg") center/cover no-repeat;
+    url("../img/background-opt.webp") center/cover no-repeat;
 }
 
 @media (min-width: 1441px) {
